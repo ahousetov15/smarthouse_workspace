@@ -1,0 +1,9 @@
+[workspace]
+members = [ "smarthouse", "sm_console"]
+
+[workspace.metadata.scripts]
+trun = "RUST_LOG=trace cargo run"
+drun = "RUST_LOG=debug cargo run"
+irun = "RUST_LOG=info cargo run"
+
+resolver = "2"
