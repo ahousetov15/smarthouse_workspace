@@ -1,5 +1,5 @@
 [workspace]
-members = [ "smarthouse", "sm_console"]
+members = [ "smarthouse", "sm_console", "stp"]
 
 [workspace.metadata.scripts]
 trun = "RUST_LOG=trace cargo run"
